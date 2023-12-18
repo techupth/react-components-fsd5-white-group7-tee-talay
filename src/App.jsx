@@ -80,7 +80,7 @@ function Section() {
             />
             <h3>Classic Leather Watch</h3>
             <p className="product-price">4,000 Baht</p>
-            {/* Todo 5: (จุดที่ 2) */}
+
             {/* <button className="add-to-cart-button">Add to Cart</button> */}
           </div>
           <div className="product-card">
