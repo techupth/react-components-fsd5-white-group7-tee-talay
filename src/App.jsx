@@ -71,7 +71,7 @@ function Section() {
             <h3>Premium Bluetooth Headphones</h3>
             <p className="product-price">2,400 Baht</p>
 
-            {/* <button className="add-to-cart-button">Add to Cart</button> */}
+            <button className="add-to-cart-button">Add to Cart</button>
           </div>
           <div className="product-card">
             <img
@@ -81,7 +81,7 @@ function Section() {
             <h3>Classic Leather Watch</h3>
             <p className="product-price">4,000 Baht</p>
 
-            {/* <button className="add-to-cart-button">Add to Cart</button> */}
+            <button className="add-to-cart-button">Add to Cart</button>
           </div>
           <div className="product-card">
             <img
@@ -91,7 +91,7 @@ function Section() {
             <h3>Organic Green Tea</h3>
             <p className="product-price">79.99 Baht</p>
 
-            {/* <button className="add-to-cart-button">Add to Cart</button> */}
+            <button className="add-to-cart-button">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -101,9 +101,12 @@ function Section() {
 
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2023 Your Ecommerce Store. All rights reserved.</p>
-    </footer>
+    <>
+      <footer>
+        <p>&copy; 2023 Your Ecommerce Store. All rights reserved.</p>
+      </footer>
+      <div>hello</div>
+    </>
   );
 }
 
